@@ -47,4 +47,3 @@ const elevenIsEven = isEven(11);
 
 console.log(tenIsEven);
 console.log(elevenIsEven);
-
