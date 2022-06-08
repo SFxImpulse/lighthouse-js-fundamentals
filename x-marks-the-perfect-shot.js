@@ -8,20 +8,19 @@ const finalPosition = function (moves) {
   for (move of moves) {
     
     switch (move) {
-      case 'north':
-        y += 1
-        break;
-      case 'south':
-        y -= 1
-        break;
-      case 'east':
-        x += 1
-        break;
-      case 'west':
-        x -= 1
-      default:
-        x += 1
-        break;
+    case 'north':
+      y += 1
+      break;
+    case 'south':
+      y -= 1
+      break;
+    case 'east':
+      x += 1
+      break;
+    case 'west':
+      x -= 1
+    default:
+      break;
     }
   }
 
